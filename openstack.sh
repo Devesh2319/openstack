@@ -38,7 +38,7 @@ name=Openstack
 baseurl=file:///RHOSP13
 gpgcheck=0
 EOF
-
+yum repolist
 yum install openstack-packstack -y
 
 packstack --gen-answer-file=setup.txt
