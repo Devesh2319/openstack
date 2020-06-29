@@ -6,11 +6,11 @@ yum install -y python3
 
 pip3 install gdown
 
-gdown   --id   1Djig-XDIkvD6VWfVwVgBqQpaBmaLWWPt    --output    rhel-7-server-additional-20180628.iso
+gdown   --id   1aS5WPyv7n-NdUEJsTed4KxQ3WwN6JlLA    --output    rhel-7-server-additional-20180628.iso
 
-gdown   --id   1uj1BTHHlUX7Oe2fjpElPPZgTZc9cjJMO   --output    rhel-7.5-server-updates-20180628.iso
+gdown   --id   1bXeoQp0D0So-rk1XgPXo1MeYHmXoFcSV   --output    rhel-7.5-server-updates-20180628.iso
 
-gdown   --id   1ElVE3GsiW8j3Su9tb5HJpjXXo4lg1Yv8    --output    RHEL7OSP-13.0-20180628.2-x86_64.iso
+gdown   --id   1kkBG-Oa5sRhAZHDSEaIRsrxM0GxEv3gf    --output    RHEL7OSP-13.0-20180628.2-x86_64.iso
 
 mkdir /updates  /additional  /RHOSP
 
